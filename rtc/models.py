@@ -1,4 +1,7 @@
 from django.db import models
+
+
+// Anirudh Agnihotry
 status_choice=(('0','Waiting'),('1','Pending'),('2','Completed'))
 # Create your models here.
 class Request(models.Model):
@@ -16,3 +19,4 @@ class Request(models.Model):
 	def __unicode__(self):
 		return self.name
 
+//Anirudh Agnihotry
